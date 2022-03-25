@@ -85,6 +85,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abe06f33e627cae7eccd65e1eafe599fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerminalManager.html#abe06f33e627cae7eccd65e1eafe599fd">TerminalManager</a> ()</td></tr>
 <tr class="separator:abe06f33e627cae7eccd65e1eafe599fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad77f884b5accf8c46dae2bdba441c49c"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerminalManager.html#ad77f884b5accf8c46dae2bdba441c49c">readCommand</a> ()</td></tr>
+<tr class="memdesc:ad77f884b5accf8c46dae2bdba441c49c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ask command to forward it to <a class="el" href="classGameManager.html">GameManager</a>  <a href="classTerminalManager.html#ad77f884b5accf8c46dae2bdba441c49c">More...</a><br /></td></tr>
 <tr class="separator:ad77f884b5accf8c46dae2bdba441c49c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -127,19 +128,23 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>ask command to forward it to <a class="el" href="classGameManager.html">GameManager</a> </p>
+
 <p class="definition">Definition at line <a class="el" href="TerminalManager_8cpp_source.html#l00007">7</a> of file <a class="el" href="TerminalManager_8cpp_source.html">TerminalManager.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;                                            {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    cout &lt;&lt;<span class="stringliteral">&quot;INSERT COMMAND: &quot;</span>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    vector&lt;string&gt; ret;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">string</span> line;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    getline(cin, line);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    stringstream ss(line);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">string</span> word;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">while</span>(ss &gt;&gt; word) {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        ret.push_back(word);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    vector&lt;string&gt; ret;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">while</span>((<span class="keywordtype">int</span>)ret.size()==0) {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        cout &lt;&lt;<span class="stringliteral">&quot;INSERT COMMAND: &quot;</span>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordtype">string</span> line;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        getline(cin, line);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        stringstream ss(line);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordtype">string</span> word;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordflow">while</span>(ss &gt;&gt; word) {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            ret.push_back(word);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        }</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>

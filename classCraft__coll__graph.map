@@ -1,12 +1,12 @@
 <map id="Craft" name="Craft">
-<area shape="rect" id="node1" title=" " alt="" coords="242,1020,377,1215"/>
-<area shape="rect" id="node2" href="$classStorage.html" title=" " alt="" coords="5,733,133,957"/>
+<area shape="rect" id="node1" title=" " alt="" coords="242,991,377,1185"/>
+<area shape="rect" id="node2" href="$classStorage.html" title=" " alt="" coords="5,704,133,928"/>
 <area shape="rect" id="node3" title=" " alt="" coords="90,5,129,83"/>
-<area shape="rect" id="node4" href="$classSlot.html" title=" " alt="" coords="86,417,210,671"/>
-<area shape="rect" id="node5" href="$classItem.html" title=" " alt="" coords="197,145,304,340"/>
+<area shape="rect" id="node4" href="$classSlot.html" title=" " alt="" coords="86,403,210,641"/>
+<area shape="rect" id="node5" href="$classItem.html" title=" " alt="" coords="197,145,304,325"/>
 <area shape="rect" id="node6" title=" " alt="" coords="195,5,285,83"/>
 <area shape="rect" id="node7" title=" " alt="" coords="309,5,368,83"/>
-<area shape="rect" id="node8" title=" " alt="" coords="158,807,295,884"/>
-<area shape="rect" id="node9" title=" " alt="" coords="320,807,467,884"/>
-<area shape="rect" id="node10" title=" " alt="" coords="491,807,634,884"/>
+<area shape="rect" id="node8" title=" " alt="" coords="158,777,295,855"/>
+<area shape="rect" id="node9" title=" " alt="" coords="320,777,467,855"/>
+<area shape="rect" id="node10" title=" " alt="" coords="491,777,634,855"/>
 </map>

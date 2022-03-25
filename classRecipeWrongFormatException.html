@@ -106,7 +106,7 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="Recipe_8hpp_source.html#l00030">30</a> of file <a class="el" href="Recipe_8hpp_source.html">Recipe.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Recipe_8hpp_source.html#l00035">35</a> of file <a class="el" href="Recipe_8hpp_source.html">Recipe.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a85a0ec273007aec475ab0623419b9bc7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a85a0ec273007aec475ab0623419b9bc7">&#9670;&nbsp;</a></span>RecipeWrongFormatException()</h2>
@@ -132,8 +132,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Recipe_8hpp_source.html#l00034">34</a> of file <a class="el" href="Recipe_8hpp_source.html">Recipe.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;: <a class="code" href="classRecipeWrongFormatException.html#a4d0cf718d1ca1e19810fa3956b179c69">data</a>(<a class="code" href="classRecipeWrongFormatException.html#a4d0cf718d1ca1e19810fa3956b179c69">data</a>) {}</div>
+<p class="definition">Definition at line <a class="el" href="Recipe_8hpp_source.html#l00039">39</a> of file <a class="el" href="Recipe_8hpp_source.html">Recipe.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;: <a class="code" href="classRecipeWrongFormatException.html#a4d0cf718d1ca1e19810fa3956b179c69">data</a>(<a class="code" href="classRecipeWrongFormatException.html#a4d0cf718d1ca1e19810fa3956b179c69">data</a>) {}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -167,15 +167,15 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Recipe_8hpp_source.html#l00035">35</a> of file <a class="el" href="Recipe_8hpp_source.html">Recipe.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                   {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">string</span> out = <span class="stringliteral">&quot;Recipe has wrong format\n&quot;</span>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this-&gt;<a class="code" href="classRecipeWrongFormatException.html#a4d0cf718d1ca1e19810fa3956b179c69">data</a>.size(); i++) {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;      out += this-&gt;<a class="code" href="classRecipeWrongFormatException.html#a4d0cf718d1ca1e19810fa3956b179c69">data</a>[i] + <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* res = out.c_str();</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">return</span> res;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  }</div>
+<p class="definition">Definition at line <a class="el" href="Recipe_8hpp_source.html#l00040">40</a> of file <a class="el" href="Recipe_8hpp_source.html">Recipe.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                                   {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">string</span> out = <span class="stringliteral">&quot;Recipe has wrong format\n&quot;</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this-&gt;<a class="code" href="classRecipeWrongFormatException.html#a4d0cf718d1ca1e19810fa3956b179c69">data</a>.size(); i++) {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      out += this-&gt;<a class="code" href="classRecipeWrongFormatException.html#a4d0cf718d1ca1e19810fa3956b179c69">data</a>[i] + <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* res = out.c_str();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">return</span> res;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -200,7 +200,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Recipe_8hpp_source.html#l00032">32</a> of file <a class="el" href="Recipe_8hpp_source.html">Recipe.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Recipe_8hpp_source.html#l00037">37</a> of file <a class="el" href="Recipe_8hpp_source.html">Recipe.hpp</a>.</p>
 
 </div>
 </div>
@@ -208,7 +208,7 @@ Private Attributes</h2></td></tr>
 <li>classes/Recipe/<a class="el" href="Recipe_8hpp_source.html">Recipe.hpp</a></li>
 </ul>
 </div><!-- contents -->
-<div class="ttc" id="aclassRecipeWrongFormatException_html_a4d0cf718d1ca1e19810fa3956b179c69"><div class="ttname"><a href="classRecipeWrongFormatException.html#a4d0cf718d1ca1e19810fa3956b179c69">RecipeWrongFormatException::data</a></div><div class="ttdeci">const vector&lt; string &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="Recipe_8hpp_source.html#l00032">Recipe.hpp:32</a></div></div>
+<div class="ttc" id="aclassRecipeWrongFormatException_html_a4d0cf718d1ca1e19810fa3956b179c69"><div class="ttname"><a href="classRecipeWrongFormatException.html#a4d0cf718d1ca1e19810fa3956b179c69">RecipeWrongFormatException::data</a></div><div class="ttdeci">const vector&lt; string &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="Recipe_8hpp_source.html#l00037">Recipe.hpp:37</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

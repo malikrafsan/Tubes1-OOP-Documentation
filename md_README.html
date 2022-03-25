@@ -67,7 +67,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>Template repository for Tubes 1 IF2210 2021/2022. Feel free to replace this README with your own content.</p>
-<h1><a class="anchor" id="autotoc_md21"></a>
+<h1><a class="anchor" id="autotoc_md20"></a>
 What's Inside</h1>
 <p>This template consists of:</p><ul>
 <li>config folder containing all the config files (items and recipes)</li>
@@ -76,17 +76,17 @@ What's Inside</h1>
 <li>check.cpp containing the code for checking</li>
 <li>makefile for compiling and testing</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md22"></a>
+<h1><a class="anchor" id="autotoc_md21"></a>
 Running the Makefile</h1>
 <p>Make sure you are using Linux with C++17. WSL also works if you are using Windows. </p><div class="fragment"><div class="line">sudo apt-get install make g++</div>
 <div class="line">make all</div>
 </div><!-- fragment --><p>Using the sample main file, it should return that 1 out of 2 tests passed.</p>
-<h1><a class="anchor" id="autotoc_md23"></a>
+<h1><a class="anchor" id="autotoc_md22"></a>
 Adding More Tests</h1>
 <p>You can add more tests by adding more files to the tests folder. Tests consists of two files, input with "in" extension and answer with "ans" extension. Each test should have exactly one EXPORT command which exports the current inventory into an "out" file in the tests folder. Please refer to the sample tests. Checking will be done by comparing the answer file and the output file.</p>
 <p>As the test is done by comparing the output files, you can freely use standard output in your program.</p>
 <p>Automated testing will not work if you are using GUI (obviously).</p>
-<h1><a class="anchor" id="autotoc_md24"></a>
+<h1><a class="anchor" id="autotoc_md23"></a>
 How to generate test cases</h1>
 <div class="fragment"><div class="line">cd generated_tests</div>
 <div class="line">g++ -std=c++17 main.cpp ../classes/FileManager/FileManager.cpp ../classes/Recipe/Recipe.cpp -o main</div>

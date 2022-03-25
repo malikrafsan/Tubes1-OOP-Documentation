@@ -83,10 +83,13 @@ Collaboration diagram for FileManager:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ffae74d07f2793bf7118daf05a55122"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileManager.html#a5ffae74d07f2793bf7118daf05a55122">write</a> (string filename, vector&lt; string &gt; data)</td></tr>
+<tr class="memdesc:a5ffae74d07f2793bf7118daf05a55122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write data to file with name as filename.  <a href="classFileManager.html#a5ffae74d07f2793bf7118daf05a55122">More...</a><br /></td></tr>
 <tr class="separator:a5ffae74d07f2793bf7118daf05a55122"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdfee6d6485eedda63f4b5bb694db324"><td class="memItemLeft" align="right" valign="top">vector&lt; vector&lt; string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileManager.html#abdfee6d6485eedda63f4b5bb694db324">readFiles</a> (string path)</td></tr>
+<tr class="memdesc:abdfee6d6485eedda63f4b5bb694db324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read multiple files from directory on path.  <a href="classFileManager.html#abdfee6d6485eedda63f4b5bb694db324">More...</a><br /></td></tr>
 <tr class="separator:abdfee6d6485eedda63f4b5bb694db324"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01665932901f3f55ff2fbc4ebfeb5d3a"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileManager.html#a01665932901f3f55ff2fbc4ebfeb5d3a">readFile</a> (string path)</td></tr>
+<tr class="memdesc:a01665932901f3f55ff2fbc4ebfeb5d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read single file from file path.  <a href="classFileManager.html#a01665932901f3f55ff2fbc4ebfeb5d3a">More...</a><br /></td></tr>
 <tr class="separator:a01665932901f3f55ff2fbc4ebfeb5d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -108,6 +111,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Read single file from file path. </p>
 
 <p class="definition">Definition at line <a class="el" href="FileManager_8cpp_source.html#l00029">29</a> of file <a class="el" href="FileManager_8cpp_source.html">FileManager.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                                {</div>
@@ -142,6 +147,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Read multiple files from directory on path. </p>
 
 <p class="definition">Definition at line <a class="el" href="FileManager_8cpp_source.html#l00044">44</a> of file <a class="el" href="FileManager_8cpp_source.html">FileManager.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                                         {</div>
@@ -186,6 +193,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Write data to file with name as filename. </p>
+
 <p class="definition">Definition at line <a class="el" href="FileManager_8cpp_source.html#l00004">4</a> of file <a class="el" href="FileManager_8cpp_source.html">FileManager.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;                                                            {</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;  ofstream file;</div>
@@ -219,10 +228,10 @@ Public Member Functions</h2></td></tr>
 <li>classes/FileManager/<a class="el" href="FileManager_8cpp_source.html">FileManager.cpp</a></li>
 </ul>
 </div><!-- contents -->
-<div class="ttc" id="aclassFileNotFoundException_html"><div class="ttname"><a href="classFileNotFoundException.html">FileNotFoundException</a></div><div class="ttdef"><b>Definition:</b> <a href="FileManager_8hpp_source.html#l00019">FileManager.hpp:19</a></div></div>
-<div class="ttc" id="aclassFileManager_html_a01665932901f3f55ff2fbc4ebfeb5d3a"><div class="ttname"><a href="classFileManager.html#a01665932901f3f55ff2fbc4ebfeb5d3a">FileManager::readFile</a></div><div class="ttdeci">vector&lt; string &gt; readFile(string path)</div><div class="ttdef"><b>Definition:</b> <a href="FileManager_8cpp_source.html#l00029">FileManager.cpp:29</a></div></div>
-<div class="ttc" id="aclassFileCannotBeWrittenException_html"><div class="ttname"><a href="classFileCannotBeWrittenException.html">FileCannotBeWrittenException</a></div><div class="ttdef"><b>Definition:</b> <a href="FileManager_8hpp_source.html#l00041">FileManager.hpp:41</a></div></div>
-<div class="ttc" id="aclassFolderNotFoundException_html"><div class="ttname"><a href="classFolderNotFoundException.html">FolderNotFoundException</a></div><div class="ttdef"><b>Definition:</b> <a href="FileManager_8hpp_source.html#l00030">FileManager.hpp:30</a></div></div>
+<div class="ttc" id="aclassFileNotFoundException_html"><div class="ttname"><a href="classFileNotFoundException.html">FileNotFoundException</a></div><div class="ttdef"><b>Definition:</b> <a href="FileManager_8hpp_source.html#l00022">FileManager.hpp:22</a></div></div>
+<div class="ttc" id="aclassFileManager_html_a01665932901f3f55ff2fbc4ebfeb5d3a"><div class="ttname"><a href="classFileManager.html#a01665932901f3f55ff2fbc4ebfeb5d3a">FileManager::readFile</a></div><div class="ttdeci">vector&lt; string &gt; readFile(string path)</div><div class="ttdoc">Read single file from file path.</div><div class="ttdef"><b>Definition:</b> <a href="FileManager_8cpp_source.html#l00029">FileManager.cpp:29</a></div></div>
+<div class="ttc" id="aclassFileCannotBeWrittenException_html"><div class="ttname"><a href="classFileCannotBeWrittenException.html">FileCannotBeWrittenException</a></div><div class="ttdef"><b>Definition:</b> <a href="FileManager_8hpp_source.html#l00044">FileManager.hpp:44</a></div></div>
+<div class="ttc" id="aclassFolderNotFoundException_html"><div class="ttname"><a href="classFolderNotFoundException.html">FolderNotFoundException</a></div><div class="ttdef"><b>Definition:</b> <a href="FileManager_8hpp_source.html#l00033">FileManager.hpp:33</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

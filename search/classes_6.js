@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['recipe_179',['Recipe',['../classRecipe.html',1,'']]],
-  ['recipewrongformatexception_180',['RecipeWrongFormatException',['../classRecipeWrongFormatException.html',1,'']]]
+  ['recipe_177',['Recipe',['../classRecipe.html',1,'']]],
+  ['recipewrongformatexception_178',['RecipeWrongFormatException',['../classRecipeWrongFormatException.html',1,'']]]
 ];
