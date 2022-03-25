@@ -1,0 +1,6 @@
+<map id="Item" name="Item">
+<area shape="rect" id="node1" title=" " alt="" coords="90,5,197,229"/>
+<area shape="rect" id="node2" href="$classNonTool.html" title=" " alt="" coords="25,307,123,428"/>
+<area shape="rect" id="node4" href="$classTool.html" title=" " alt="" coords="148,277,280,457"/>
+<area shape="rect" id="node3" href="$classTypedNonTool.html" title=" " alt="" coords="5,505,143,656"/>
+</map>
